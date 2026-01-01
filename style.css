@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+    font-family: Arial, sans-serif;
+  background-color: rgb(192, 222, 240);
+}
+.container{
+    display: flex;
+}
+
+#portfolio{
+    width: 260px;
+    height: 100vh;
+    background: #0c373a;
+    position: fixed;
+    text-align: center;
+    padding-top: 40px;
+}
+#portfolio img{
+    width: 140px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.4);
+    margin-bottom: 30px;
+}
+#portfolio nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#portfolio nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#portfolio nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+ 
+#content a {
+     text-decoration: none;
+
+}
+ #content{
+    margin-left: 260px;
+    padding: 60px;
+}
+section{
+    margin-bottom: 30px;
+}
+section p{
+   color:rgb(24, 48, 48);
+}
+
+h1{
+    font-size: 48px;
+}
+h1 span{
+    color: #07383f;
+}
+#contact{
+    color: rgb(8, 45, 87);
+    margin: 20px 0 35px;
+}
+#contact a{
+    color: #8b3f3f;
+}
+#contact a:hover{
+    color: blue;
+}
+
+i{
+  
+    padding-top: 30px;
+    font-size: 30px;
+    gap: 70px;
+    margin: 0 7px;
+
+}
+i:hover
+{
+    color: rgb(14, 49, 49);
+}
+
+
+
+h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+h3{
+    font-size: 32px;
+    padding: 20px 0;
+  color: rgb(13, 82, 82);
+}
+h4{
+    padding-bottom: 25px;
+}
+
+#experience li{
+    list-style: none;
+}
+#experience{
+    padding-top: 30px;
+}
+
+/* education */
+#education{
+padding-top: 30px;
+} 
+.education-type h3{
+    font-size: 32px;
+    padding: 25px 0 5px;
+}
+.education-type h4{
+    font-size: 24px;
+    color: #333;
+    padding: 2px 0 25px;
+}
+.education-type p{
+   
+ color: #333;
+   
+
+}
+.skills li {
+    list-style: none;
+}
+/* Skills */
+#skills i{
+ 
+    padding-bottom: 30px;
+}
+.skills h3{
+    padding: 10px 0 2px;
+   
+}
+/* interests */
+#interests h2{
+    padding: 20px 0 30px;
+}
+#interests p{
+    color: #333;
+}
+/* Awards */
+.awards li{
+    font-weight: bold;
+}
+.awards li p{
+    color: #111010;
+    font-weight: lighter;
+    
+}
